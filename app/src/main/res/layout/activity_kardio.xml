@@ -38,23 +38,43 @@
             android:layout_marginHorizontal="15dp"
             >
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
 
-            <TextView
-                android:id="@+id/textView1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Kardio"
-                android:layout_marginHorizontal="15dp"
-                android:layout_marginVertical="20dp"
-                android:textSize="22dp" />
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="esaiaowahwoheraowhawrhawlrhawrhaoihraweaweaweaweaweaweaw w aeaweweweae afd"
-                android:layout_marginHorizontal="15dp"
-                android:layout_marginVertical="70dp"/>
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kardio"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginVertical="20dp"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="esaiaowahwoheraowhawrhawlrhawrhaoihraweaweaweaweaweaweaw w aeaweweweae afd"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginVertical="70dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="75dp"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/custom_button"
+                    app:backgroundTint="@null"
+                    android:text="selesai"
+                    android:textSize="25dp"/>
+
+            </LinearLayout>
+
         </androidx.cardview.widget.CardView>
 
 
