@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         cvperut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this,dada.class );
+                Intent intent=new Intent(MainActivity.this,perut.class );
                 startActivity(intent);
             }
         });
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         cvback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this,dada.class );
+                Intent intent=new Intent(MainActivity.this,punggung.class );
                 startActivity(intent);
             }
         });
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         cvtangan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(MainActivity.this,dada.class );
+                Intent intent=new Intent(MainActivity.this,tangan.class );
                 startActivity(intent);
             }
         });

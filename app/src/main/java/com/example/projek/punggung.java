@@ -16,7 +16,7 @@ public class punggung extends AppCompatActivity {
         setContentView(R.layout.activitiy_punggung);
 
         VideoView videoView = findViewById(R.id.videoView);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.dada;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.punggung;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
         MediaController mediaController = new MediaController(this);

@@ -20,6 +20,18 @@
             android:name=".dada"
             android:exported="false" />
         <activity
+            android:name=".kaki"
+            android:exported="false" />
+        <activity
+            android:name=".tangan"
+            android:exported="false" />
+        <activity
+            android:name=".punggung"
+            android:exported="false" />
+        <activity
+            android:name=".perut"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

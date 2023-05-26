@@ -14,9 +14,8 @@ public class perut extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activitiy_perut);
-
         VideoView videoView = findViewById(R.id.videoView);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.dada;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.perut;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
         MediaController mediaController = new MediaController(this);

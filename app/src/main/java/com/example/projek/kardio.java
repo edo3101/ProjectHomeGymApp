@@ -14,7 +14,7 @@ public class kardio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kardio);
         VideoView videoView = findViewById(R.id.videoView);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.tes;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.kardio;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
         MediaController mediaController = new MediaController(this);
