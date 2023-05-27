@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">projek</string>
+    <string name="app_name">Home Workout</string>
+
+    <string name="dada">
+        <p>Otot dada terdiri dari 4 bagian yaitu pectoralis major, pectoralis minor, serratus anterior, dan subclavius.  Otot dada punya fungsi memberi tenaga tambahan untuk bagian atas tubuh seperti bahu, lengan dan tangan. Jadi, memperkuat otot dada bukan hanya untuk keperluan estetik, tapi juga kekuatan tubuh.\n</p>
+
+    </string>
 </resources>
