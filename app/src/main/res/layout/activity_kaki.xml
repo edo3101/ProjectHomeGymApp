@@ -50,6 +50,7 @@
                     android:id="@+id/textView1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:layout_marginHorizontal="15dp"
                     android:layout_marginVertical="20dp"
                     android:text="Latihan kaki"
@@ -59,9 +60,59 @@
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:justificationMode="inter_word"
                     android:layout_marginHorizontal="15dp"
-                    android:layout_marginVertical="70dp"
-                    android:text="esaiaowahwoheraowhawrhawlrhawrhaoihraweaweaweaweaweaweaw w aeaweweweae afd" />
+                    android:text="Seperti yang diketahui, kaki sangat mendukungmu dalam beraktivitas sehari-hari, sehingga menjaga otot kaki tetap kuat dan sehat perlu untuk dilakukan.
+
+Ada beberapa manfaat melatih otot kaki yang menarik untuk diketahui dengan penjelasan sebagai berikut ini." />
+
+                <TextView
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:text="1. Memperkuat Fungsi Dasar Kaki" />
+
+                <TextView
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:text="2. Penyeimbang Tubuh" />
+
+                <TextView
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:text="3. Meningkatkan Pertumbuhan Otot yang Lain" />
+
+                <TextView
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:text="4. Meningkatkan Metabolisme Tubuh
+
+" />
+
+                <TextView
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:text="5. Mendapatkan Tubuh yang Atletis" />
 
                 <Button
                     android:id="@+id/button"

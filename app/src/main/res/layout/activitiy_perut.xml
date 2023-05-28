@@ -49,6 +49,7 @@
                     android:id="@+id/textView1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="Latihan Perut"
                     android:layout_marginHorizontal="15dp"
                     android:layout_marginVertical="20dp"
@@ -58,9 +59,17 @@
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="esaiaowahwoheraowhawrhawlrhawrhaoihraweaweaweaweaweaweaw w aeaweweweae afd"
+                    android:justificationMode="inter_word"
+                    android:text="Otot perut berada di bagian depan tubuh, di antara tulang rusuk dan panggul. Merujuk Cleveland Clinic, kumpulan otot yang melapisi perut, yaitu oblik eksternal, oblik internal, fleksor pinggul, rektus abdominis, dan transversus abdominis."
+                    android:layout_marginHorizontal="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="Otot perut membantu fungsi tubuh termasuk buang air kecil, buang air besar, batuk, bersin, muntah. Otot perut mempertahankan tekanan internal dan menunjang tulang belakang tubuh saat duduk, berdiri, membungkuk, memutar, berolahraga, dan bernyanyi."
                     android:layout_marginHorizontal="15dp"
-                    android:layout_marginVertical="70dp"/>
+                    android:layout_marginTop="20dp"/>
 
                 <Button
                     android:id="@+id/button"

@@ -49,18 +49,36 @@
                     android:id="@+id/textView1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
                     android:text="Latihan Punggung"
                     android:layout_marginHorizontal="15dp"
                     android:layout_marginVertical="20dp"
                     android:textSize="22dp" />
 
                 <TextView
+                    android:justificationMode="inter_word"
                     android:id="@+id/textView"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="esaiaowahwoheraowhawrhawlrhawrhaoihraweaweaweaweaweaweaw w aeaweweweae afd"
                     android:layout_marginHorizontal="15dp"
-                    android:layout_marginVertical="70dp"/>
+                    android:layout_marginBottom="15dp"
+                    android:text="Punggung Anda terdiri dari tiga lapisan otot yang berbeda, yaitu lapisan superfisial, lapisan tengah, dan lapisan dalam. Lapisan otot punggung ini membantu memobilisasi dan menstabilkan tubuh Anda selama aktivitas sehari-hari. Mereka juga menempelkan bahu dan panggul Anda ke bagasi, menciptakan jembatan antara tubuh bagian atas dan tubuh bagian bawah." />
+                <TextView
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:text="Fungsi Membentuk Otot Punggung" />
+                <TextView
+                    android:justificationMode="inter_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:text="Fungsi otot punggung Anda berbeda-beda tergantung pada otot tertentu dan arah tarikan masing-masing otot. Banyak otot bekerja sama; satu otot dapat memberikan gerakan ke sendi sementara otot tetangga memberikan stabilitas.
+
+Misalnya, fungsi latissimus dorsi Anda adalah untuk memanjangkan bahu, menariknya ke belakang. Saat ini terjadi, trapezius tengah dan bawah Anda berkontraksi untuk menstabilkan tulang belikat Anda." />
 
                 <Button
                     android:id="@+id/button"
@@ -68,7 +86,7 @@
                     android:layout_height="60dp"
                     android:layout_marginEnd="75dp"
                     android:layout_marginStart="75dp"
-                    android:layout_marginTop="120dp"
+                    android:layout_marginTop="60dp"
                     android:background="@drawable/custom_button"
                     app:backgroundTint="@null"
                     android:text="selesai"
